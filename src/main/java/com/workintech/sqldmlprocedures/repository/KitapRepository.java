@@ -18,4 +18,5 @@ public interface KitapRepository extends JpaRepository<Kitap, Long> {
     void addNewKitap(String ad, int puan, long yazarno, long turno);
 
 
+
 }
